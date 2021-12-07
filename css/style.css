@@ -133,10 +133,31 @@ html {
     border-radius: 00.3em;
     
   }
-  .main-title {
+
+.main-title {
+    
+    text-transform: uppercase;
+    text-align: center;
+    animation-name: productos;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }  
+  @keyframes productos {
+    0% {
+        transform: translateX(-50vw);
+    }
+    100% { transform: translateX(0vw);
+      
+
+    }
+
+  }
+
+
+  /* .main-title {
     text-align: center;
     text-transform: uppercase;
-  }  
+  }   */
   @media (min-width: 768px){
     .tienda {
       

@@ -63,7 +63,7 @@ html {
 
 
   /* header */
-  .bg-header {
+  .bg-headerr {
     background-image: url('../assets/images/fondo-u.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -71,24 +71,24 @@ html {
     height: 18.75em;
   }
 
-  .bg-navbar {
+  .bg-navbarr {
     background-color: rgba(0, 0, 0, 0.63);
     padding: 1.5em 0;
   }
-  .navbar{
+  .navbarr{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   @media (min-width : 768px) {
-    .navbar {
+    .navbarr {
       flex-direction: row;
       justify-content: space-between;
     }
 
   }
 
-  .navbar-brand {
+  .navbarr-brand {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,26 +99,26 @@ html {
     margin-bottom: 1em;
   }
   @media (min-width : 768px){
-    .navbar-brand {
+    .navbarr-brand {
       flex-direction: row;
       margin-bottom: 0em;
     }
   }
-  .navbar-brand img {
+  .navbarr-brand img {
     width: 2em;
   }
-  .navbar-nav {
+  .navbarr-nav {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 1em;
     border-radius: 0.3em;
   }
-  .nav-link {
+  .navv-link {
     display: inline-block;
     padding: 0.3em;
     text-decoration: none;
     color: white;
   }
-  .nav-link:hover{
+  .navv-link:hover{
     background-color: white;
     padding: 0.3em;
     color: black;
